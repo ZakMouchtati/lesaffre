@@ -37,7 +37,7 @@ const Form = () => {
   return (
     <div>
         <button onClick={openModal}  className="bg-main text-blue rounded-2xl py-3 font-semibold px-12 text-xl uppercase">
-            Remplir le <br />Fourmulaire Visiteur
+            Remplir le <br />Formulaire Visiteur
         </button>
         <Modal isOpen={isOpen} onClose={closeModal} className={success ? "form-success" : ""}>
 
