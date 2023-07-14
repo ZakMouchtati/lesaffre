@@ -13,7 +13,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .logo img {
-    filter: brightness(100);
+    /* filter: brightness(100); */
 }
 .home{
     min-height: 100vh;
@@ -21,7 +21,10 @@
     padding-bottom: 15px;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("../assets/bg-main.jpg");
+    background-image: url("../assets/rafiaa/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .modal-container {
